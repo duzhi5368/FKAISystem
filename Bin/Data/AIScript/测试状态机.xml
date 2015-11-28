@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--开始一个新的状态机-->
+<状态机表名称 StartMachine="状态机A名称">
+	<MachineName MachineName="状态机A名称" DefaultState="状态1名称">
+		<状态1 SubState="状态机B名称" StateName="状态1名称">
+			<AI AIType="逃跑" AIParams="10" SubState="">
+			</AI>
+			<Triggers>
+				<触发器1 NextState="状态1名称" TriParams=10>
+				</触发器1>
+				<触发器2 NextState="状态1名称" TriParams=2>
+				</触发器2>
+			</Triggers>
+		</状态1>
+	</MachineName>
+	<MachineName MachineName="状态机B名称" DefaultState="子状态2">
+		<子状态2 SubState="" StateName="子状态2">
+			<AI AIType="攻击" AIParams="2" SubState="">
+			</AI>
+			<Triggers>
+				<触发器3 NextState="子状态2" TriParams=10>
+				</触发器3>
+				<触发器4 NextState="子状态2" TriParams=2>
+				</触发器4>
+			</Triggers>
+		</子状态2>
+	</MachineName>
+</状态机表名称>

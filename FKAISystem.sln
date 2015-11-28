@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FKAISystem", "FKAISystem.vcproj", "{64C4311E-C052-4369-9267-8B87F1461CEC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestFKAISystem", "TestFKAISystem.vcproj", "{C9236DAF-E226-46CB-8DD6-F04D46E0BD93}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{64C4311E-C052-4369-9267-8B87F1461CEC}.Debug.ActiveCfg = Debug|Win32
+		{64C4311E-C052-4369-9267-8B87F1461CEC}.Debug.Build.0 = Debug|Win32
+		{64C4311E-C052-4369-9267-8B87F1461CEC}.Release.ActiveCfg = Release|Win32
+		{64C4311E-C052-4369-9267-8B87F1461CEC}.Release.Build.0 = Release|Win32
+		{C9236DAF-E226-46CB-8DD6-F04D46E0BD93}.Debug.ActiveCfg = Debug|Win32
+		{C9236DAF-E226-46CB-8DD6-F04D46E0BD93}.Debug.Build.0 = Debug|Win32
+		{C9236DAF-E226-46CB-8DD6-F04D46E0BD93}.Release.ActiveCfg = Release|Win32
+		{C9236DAF-E226-46CB-8DD6-F04D46E0BD93}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
